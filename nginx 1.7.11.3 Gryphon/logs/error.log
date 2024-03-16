@@ -1,0 +1,25 @@
+2024/03/15 23:35:28 [emerg] 19584#18592: unexpected end of file, expecting "}" in F:\nginx 1.7.11.3 Gryphon/.\conf\screensharing.conf:185
+2024/03/15 23:35:56 [emerg] 29596#2844: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/03/15 23:36:26 [notice] 29480#27184: sockinit() attempting to access sockapi
+2024/03/15 23:36:26 [notice] 29480#27184: Access to sockapi succeded!
+2024/03/15 23:36:26 [notice] 29480#27184: using sockapi from "4;152;"
+2024/03/15 23:36:26 [notice] 29596#5716: sockinit() attempting to access sockapi
+2024/03/15 23:36:26 [notice] 29596#5716: Access to sockapi succeded!
+2024/03/15 23:36:26 [notice] 29596#5716: using sockapi from "4;8;"
+2024/03/15 23:47:06 [emerg] 25064#28960: CreateFile() "F:\nginx 1.7.11.3 Gryphon/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2024/03/15 23:47:18 [emerg] 26924#30124: CreateFile() "F:\nginx 1.7.11.3 Gryphon/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2024/03/15 23:47:46 [emerg] 30676#25856: CreateFile() "F:\nginx 1.7.11.3 Gryphon/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2024/03/15 23:48:34 [notice] 29756#21220: Fatal: wait for sockapi failed
+2024/03/15 23:49:02 [notice] 29852#30096: Fatal: wait for sockapi failed
+2024/03/16 11:25:42 [emerg] 6968#2912: CreateFile() "F:\nginx 1.7.11.3 Gryphon/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2024/03/16 11:26:34 [notice] 4400#13700: signal process started (stop)
+2024/03/16 11:26:34 [error] 4400#13700: OpenEvent("Global\ngx_stop_25780") failed (2: The system cannot find the file specified)
+2024/03/16 11:27:27 [emerg] 16660#6948: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/03/16 11:29:57 [emerg] 16264#16612: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/03/16 13:25:08 [emerg] 6080#18968: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/03/16 13:25:57 [notice] 6836#22080: sockinit() attempting to access sockapi
+2024/03/16 13:25:57 [notice] 6836#22080: Access to sockapi succeded!
+2024/03/16 13:25:57 [notice] 6836#22080: using sockapi from "4;152;"
+2024/03/16 13:25:58 [notice] 22068#14608: sockinit() attempting to access sockapi
+2024/03/16 13:25:58 [notice] 22068#14608: Access to sockapi succeded!
+2024/03/16 13:25:58 [notice] 22068#14608: using sockapi from "4;8;"
