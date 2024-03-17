@@ -2,32 +2,32 @@ import mysql.connector
 
 cnx=None
 
-# def filter_input(max_length=100):
-#     while True:
-#         input_string = input("请输入字符串：")
+def filter_input(max_length=100):
+    while True:
+        input_string = input("请输入字符串：")
 
-#         # 过滤中文字符
-#         input_string = re.sub(r'[\u4e00-\u9fa5]', '', input_string)
+        # 过滤中文字符
+        input_string = re.sub(r'[\u4e00-\u9fa5]', '', input_string)
 
-#         # 过滤特殊字符和十六进制代码
-#         input_string = re.sub(r'[^\w\s]', '', input_string)
-#         input_string = re.sub(r'\\x..', '', input_string)
+        # 过滤特殊字符和十六进制代码
+        input_string = re.sub(r'[^\w\s]', '', input_string)
+        input_string = re.sub(r'\\x..', '', input_string)
 
-#         # 防止SQL注入
-#         input_string = pymysql.escape_string(input_string)
+        # 防止SQL注入
+        input_string = pymysql.escape_string(input_string)
 
-#         # 限制长度
-#         if len(input_string) > max_length:
-#             print("输入的字符串超过了最大长度，请重新输入。")
-#             continue
+        # 限制长度
+        if len(input_string) > max_length:
+            print("输入的字符串超过了最大长度，请重新输入。")
+            continue
 
-#         return input_string
+        return input_string
     
 def connect_db():
     # 连接数据库
     global cnx
     try:
-        cnx = mysql.connector.connect(user='root', password='oj.jzxx.net',host='127.0.0.1',database='screenshot')
+        cnx = mysql.connector.connect(user='root', password='123456',host='127.0.0.1',database='screenshot')
         print("数据库连接成功")
     except mysql.connector.Error as err:
         print("数据库连接失败: {}".format(err))
